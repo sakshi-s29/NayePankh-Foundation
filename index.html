@@ -41,9 +41,18 @@ nav{
 }
 
 .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
     font-size:1.5rem;
     font-weight:700;
     color:#2563eb;
+}
+
+.logo img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
 }
 
 .nav-links{
@@ -228,7 +237,10 @@ footer{
 
 <header>
 <nav>
-<div class="logo"> NayePankh Foundation</div>
+<div class="logo">
+    <img src="logo.png" alt="NayePankh Logo">
+    <span>NayePankh Foundation</span>
+</div>
 
 <div class="nav-links" id="navLinks">
 <a href="#home">Home</a>
